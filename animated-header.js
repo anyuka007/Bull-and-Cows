@@ -1,13 +1,4 @@
-import readline from "readline-sync";
-
 import { setTimeout as pause } from "timers/promises";
-import { createSpinner } from "nanospinner";
-import chalkAnimation from "chalk-animation";
-import chalk from "chalk";
-
-import figlet from "figlet";
-import gradient from "gradient-string";
-import { bullAndCow, nameOfGame, youWon } from "./text-variables.js";
 import { colorizingStringChar } from "./text-utilities.js";
 
 export async function animatedHeader(header, additionalText, animationSpeed) {
