@@ -182,7 +182,7 @@ export async function computerGuessesGame() {
         await pause(1000);
 
         if (reducedArray.length === 1) {
-            chalkAnimation.rainbow("Aha! I think I've got it!").start();
+            stringAnimated("Aha! I think I've got it!");
             await pause(1000);
             console.log(
                 "Your number is " + colorizingStringWord(reducedArray[0])
