@@ -46,11 +46,11 @@
 
 <div align="center" id="demo">
   <a href="https://github.com/anyuka007/Bull-and-Cows">
-    <!-- <img src="gameVideo.gif" alt="gif" width="500"> -->
-     <video width="320" height="240" controls>
+    <img src="gameVideo.gif" alt="gif" width="500">
+     <!-- <video width="320" height="240" controls>
   <source src="gameVideo.mp4" type="video/mp4">
 Your browser does not support the video tag.
-</video>
+</video> -->
   </a>
 
 Welcome to Bulls and Cows, the ultimate game of logic and deduction! Whether you're pitting your wits against a friend or challenging the computer, this game will keep you on your toes. 
