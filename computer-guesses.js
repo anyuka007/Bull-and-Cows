@@ -163,7 +163,7 @@ export async function computerGuessesGame() {
         stringAnimated(randomPhrase);
         await pause(2000);
 
-        console.log(`My guess ist ${colorizingStringWord(guess)}`);
+        console.log(`My guess is ${colorizingStringWord(guess)}`);
         let [usersAnswerBulls, usersAnswerCows] = checkingTheGuess();
         if (usersAnswerBulls === 4) {
             console.log(colorizingStringChar("I won!"));
